@@ -1,0 +1,45 @@
+
+  .container {
+    font-size: large;
+  }
+
+  .head-text {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: justify; /* จัดการย่อหน้าและความห่าง */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .example-card {
+    display: flex;
+    justify-content: center;
+    /* จัดเนื้อหาให้อยู่ตรงกลางแนวนอน */
+    background-image: url('src/app/img/ba.jpg');
+    width: 100%;
+    height: 40%;
+  }
+  .text-left {
+    font-size: 80px;
+    font-family: Georgia, serif;
+    text-decoration: underline;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  .text-botton {
+    font-size: 35px;
+    font-family: Georgia, serif;
+    text-decoration: underline;
+    margin-left: 5%;
+  }
+  .description-right {
+    margin: 2% 6% 0% 10%;
+  }
+  .description-left {
+    margin: 2% 6% 5% 10%;
+  }
+  .B {
+    background-color: rgb(236, 236, 236);
+  }
+

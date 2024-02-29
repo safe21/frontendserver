@@ -1,0 +1,13 @@
+<h1 mat-dialog-title style="text-align: center;">Information</h1>
+<form (ngSubmit)="inviteStudent()" style="text-align: center;">
+    <div mat-dialog-content *ngFor="let Item of datastudent">
+      <p>  {{Item.idstudent}}</p>
+      <p>  {{Item.en_first_name}}  {{Item.en_last_name}}</p>
+      <p>  {{Item.th_first_name}}  {{Item.th_last_name}}</p>
+
+    </div>
+    <div mat-dialog-actions >
+        <button type="submit" mat-raised-button color="primary" cdkFocusInitial (click)="invite()">Invite</button>
+        <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+    </div>
+</form>
